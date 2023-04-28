@@ -119,7 +119,7 @@ const Single = () => {
                             </div>
                         </div>
                         <div className="job-footer">
-                            <div className="job-footer-content">
+                            <div className="job-footer-content desktop">
                                 <h3>{jobOffer.position}</h3>
                                 <p>{jobOffer.company}</p>
                             </div>

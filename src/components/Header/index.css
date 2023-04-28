@@ -17,8 +17,7 @@ header .logo {
 }
 
 .adminCreate {
-    position: absolute;
-    right : 30rem;
+    align-self: center;
 }
 
 .adminCreate .btn {
@@ -27,7 +26,13 @@ header .logo {
     align-self: center;
     background-color: #00684A;
 }
+
 .adminCreate .btn:hover {
     background-color: #00ad7c;
 }
 
+@media (max-width: 450px) {
+    .adminCreate .btn {
+        font-size: 1rem;
+    }
+}

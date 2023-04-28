@@ -11,7 +11,7 @@
 }
 
 .error {
-    width: 50%;
+    width: 100%;
     position: relative;
     top: -4rem;
     display: flex;
@@ -28,7 +28,6 @@
 }
 
 .job-header {
-    width: 50%;
     position: relative;
     top: -4rem;
     display: grid;
@@ -211,4 +210,78 @@
     align-items: center;
     padding-inline: 35.5rem;
 
+}
+
+
+@media (max-width: 1100px) {
+    .job-header {
+        margin-inline: 4rem;
+    }
+    .job-details {
+        width: auto;
+        margin-inline: 4rem;
+    }
+    .job-footer {
+        padding-inline: 4rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .job-header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 3.2rem;
+        gap: 1rem;
+        margin-inline: 2.4rem;
+        top: -2rem;
+    }
+    .job-header .logo {
+        width: 5rem;
+        height: 5rem;
+        position: absolute;
+        display: flex;
+        top: -2.5rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+    .job-details {
+        padding-inline: 2.4rem;
+        padding-block: 4rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .job-details-header {
+        flex-direction: column;
+    }
+    .job-details-header .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+    .job-details-header-title {
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .job-details .btn {
+        padding: 1rem;
+    }
+
+    .job-details-header .btn {
+        width: 100%;
+    }
+
+    .job-footer {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .desktop {
+        display: none;
+    }
 }

@@ -56,7 +56,8 @@ function SearchBar() {
                 <input className='input map' type="text" placeholder="Filter by location…" value={query2} onChange={handleQuery2Change} />
                 <label>
                     <input type="checkbox" onChange={handleQuery3Change} />
-                    <span>Full Time Only</span>
+                    <span className="desktop">Full Time Only</span>
+                    <span className="mobile">Full Time</span>
                 </label>
                 <Button type="submit" value="Search" />
             </form>

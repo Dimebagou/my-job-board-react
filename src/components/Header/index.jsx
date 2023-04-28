@@ -11,14 +11,17 @@ const Header = () => {
             <Link to="/">
                 <img className='logo' src="/img/logo.svg" alt="devjobs' logo" />
             </Link>
-            <Toggle />
-            {location.pathname !== '/create' && (
+            {(location.pathname !== '/create' && location.pathname !== '/update') && (
+                
+            
                 <div className="btn-container adminCreate">
                     <Link to="/create">
                         <Button value="Create offer" />
                     </Link>
                 </div>
             )}
+            <Toggle />
+            
         </header>
     )
 }

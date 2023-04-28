@@ -160,7 +160,7 @@ const Update = () => {
                     </div>
                     <div className="form-group">
                         <label htmlFor="contract">Full Time :</label>
-                        <input type="checkbox" id="contract" checked={contract === "Full Time"} value={contract} onChange={(e) => setContract(e.target.checked ? "Full Time" : "Part Time")} />
+                        <input className="check" type="checkbox" id="contract" checked={contract === "Full Time"} value={contract} onChange={(e) => setContract(e.target.checked ? "Full Time" : "Part Time")} />
                     </div>
                     <div className="form-group">
                         <label htmlFor="description">Description :</label>
