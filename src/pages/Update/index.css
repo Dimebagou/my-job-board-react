@@ -1,0 +1,128 @@
+.update {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update .btn {
+    align-self: center;
+    background-color: #00684A;
+}
+.update .btn:hover {
+    background-color: #00ad7c;
+}
+
+.update h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.update h2 {
+    text-align: center;
+}
+
+.update form {
+    width: 80%;
+    position: relative;
+    top: -4rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+    background-color: #FFF;
+    padding: 4.8rem;
+    border-radius: 6px;
+    gap: 2rem;
+}
+
+.update .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.update form input, .update form textarea {
+    width: 65%;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+
+
+.update form label {
+    width: 35%;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+}
+
+.update .form-group p {
+    display: flex;
+    gap: 1rem;
+} 
+
+.update .form-group p .btn {
+    background-color: red;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.update .form-group p .btn:hover {
+    background-color: rgb(214, 1, 1);
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.update .form-group.items label {
+    text-align: center;
+    margin: 0;
+}
+
+.update .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-top: 4rem;
+}
+
+.update .btn-container .btn {
+    font-size: 3rem;
+}
+
+.update .checkTime {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+}
+
+.update .checkTime input {
+    width: auto;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.update .requirementsAndRoleItems label {
+    width: 100%;
+    text-align: center;
+}
+
+.update .requirementsAndRoleItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}

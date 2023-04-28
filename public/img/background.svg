@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="160" viewBox="0 0 1440 160">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M0,0H1440a0,0,0,0,1,0,0V160a0,0,0,0,1,0,0H100A100,100,0,0,1,0,60V0A0,0,0,0,1,0,0Z" transform="translate(0 0.456)" fill="#5964e0"/>
+    </clipPath>
+  </defs>
+  <g id="background" transform="translate(0 -0.456)">
+    <path id="Mask-2" data-name="Mask" d="M0,0H1440a0,0,0,0,1,0,0V160a0,0,0,0,1,0,0H100A100,100,0,0,1,0,60V0A0,0,0,0,1,0,0Z" transform="translate(0 0.456)" fill="#5964e0"/>
+    <g id="triangle" clip-path="url(#clip-path)">
+      <path id="Triangle-2" data-name="Triangle" d="M221.78,63.394c15.682-27.831,55.758-27.831,71.44,0L480.558,395.873C495.958,423.2,476.209,457,444.838,457H70.162c-31.371,0-51.12-33.8-35.72-61.127Z" transform="matrix(0.978, 0.208, -0.208, 0.978, 960.135, -313.088)" fill="#fff" opacity="0.081"/>
+      <path id="Triangle_Copy" data-name="Triangle Copy" d="M221.78,63.394c15.682-27.831,55.758-27.831,71.44,0L480.558,395.873C495.958,423.2,476.209,457,444.838,457H70.162c-31.371,0-51.12-33.8-35.72-61.127Z" transform="matrix(0.819, -0.574, 0.574, 0.819, 36.506, -247.524)" fill="#fff" opacity="0.081"/>
+      <path id="Triangle_Copy_2" data-name="Triangle Copy 2" d="M221.78,63.394c15.682-27.831,55.758-27.831,71.44,0L480.558,395.873C495.958,423.2,476.209,457,444.838,457H70.162c-31.371,0-51.12-33.8-35.72-61.127Z" transform="matrix(0.819, -0.574, 0.574, 0.819, -289.494, 147.476)" fill="#fff" opacity="0.081"/>
+    </g>
+  </g>
+</svg>

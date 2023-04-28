@@ -1,0 +1,11 @@
+.time {
+    font-size: 1.6rem;
+}
+
+.point {
+    position: relative;
+    top: 0.8rem;
+    margin-inline: 0.5rem;
+    font-size: 3rem;
+    
+}

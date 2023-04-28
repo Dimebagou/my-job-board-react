@@ -1,0 +1,66 @@
+.search-bar {
+    padding: 1.6rem;
+    position: relative;
+    background-color: #FFF;
+    top: -4rem;
+    border-radius: 6px;
+    height: 8rem;
+    margin-inline: 16.5rem;
+    display: grid;
+    column-gap: 1rem solid #E5E7EB;
+    grid-template-columns: 463fr 300fr 190fr 155fr;
+    align-items: center;
+}
+
+.search-bar input {
+    font-size: 1.6rem;
+}
+
+.search-bar input.glass,
+.search-bar input.map {
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: 10px;
+    text-indent: 4rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    height: 100%;
+    border-right: #E5E7EB 1px solid;
+}
+
+.search-bar input.glass {
+    background-image: url(../../../public/img/glass.svg);
+    border-radius: 6px 0 0 6px;
+}
+
+.search-bar input.map {
+    background-image: url(../../../public/img/map.svg);
+}
+
+.search-bar label {
+    margin-inline: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar label span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.search-bar label input {
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 2.4rem;
+    height: 2.4rem;
+    cursor: pointer;
+}
+
+
+
+.Toastify__toast-body {
+    color : #19202D;
+    font-size: 3rem;
+}

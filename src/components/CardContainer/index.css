@@ -1,0 +1,74 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4rem;
+    padding-inline: 16.5rem;
+    row-gap: 6.5rem;
+    column-gap: 3rem;
+}
+
+.card-container a {
+    text-decoration: none;
+}
+
+.card {
+    font-size: 2.2rem;
+    background-color:#FFF;
+    border-radius: 6px;
+    color: #6E8098;
+    padding-inline: 3.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.card h3 {
+    color: #19202D;
+}
+
+.card h3:hover {
+    color: #6E8098;
+}
+
+.card .logo {
+    position: relative;
+    top : -2.5rem;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.card .delete {
+    position: relative;
+    top: -2.5rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card img {
+    
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+
+
+
+.load-more {
+    margin-top: 5.6rem;
+    text-align: center;
+    margin-bottom: 10.4rem;
+}
+
+.card .country {
+    color: #5964E0;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
