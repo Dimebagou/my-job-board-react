@@ -32,11 +32,18 @@
   <li>React</li>
 </ul>
 
+<h2>To Do</h2>
+
+<ul>
+  <li>Add the toggle dark/light theme function</li>
+  <li>Improve the search bar in mobile style</li>
+  <li>Optimize the code and create more components for stuff I use more than one time</li>
+  <li>Green buttons for administration displaying only if user is connected (then connected as administrator)</li>
+  <li>Put animations</li>
+</ul>
+
 <h2>Authors</h2>
 
 <ul>
   <li><a href="https://github.com/Dimebagou">Dimebagou</a></li>
 </ul>
-
-
-
