@@ -2,7 +2,7 @@
 
 <p>This the front part of a website displaying job offers that you can administrate</p>
 
-<h2>Installation</h2>
+<h2>Installation :</h2>
 
 <ol>
   <li>Clone the Git repository : <code>git clone https://github.com/Dimebagou/my-job-board-react</code></li>
