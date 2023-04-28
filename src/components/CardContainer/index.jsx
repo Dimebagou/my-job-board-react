@@ -11,7 +11,7 @@ const CardContainer = (data) => {
     }
 
     if (data) {
-        const jobOffers = data.data.reverse()
+        const jobOffers = data.data.slice().reverse()
         return (
             <>
                 <div className="card-container">

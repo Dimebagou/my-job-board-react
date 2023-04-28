@@ -31,7 +31,7 @@ const Search = () => {
             }
         }
         fetchAllJobOffers();
-    }, []);
+    }, [queries]);
 
     return (
 
@@ -39,7 +39,7 @@ const Search = () => {
 
             <Header />
             <SearchBar />
-            {error && <h1 className='center'>No offer corresponds to your search... Try again</h1>}
+            {error ? <h1 className='center'>No offer corresponds to your search... Try again</h1> : <h1 className='center'>Search results :</h1>}
             {resultsJobOffers && <CardContainer data={resultsJobOffers} />}
         </div>
     );
