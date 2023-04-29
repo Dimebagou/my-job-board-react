@@ -18,6 +18,8 @@
 
 <h2>Features</h2>
 
+<h3>--> <a href="https://www.loom.com/share/d03a872b32d2436d9490cf6cf59253a5">A video presentation of the project (in French)</a></h3>
+
 <ul>
   <li>Read all job</li>
   <li>Search jobs</li>
